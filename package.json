@@ -1,0 +1,30 @@
+{
+  "name": "wildhacks_lol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehouse322/wildhacks_lol.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ehouse322/wildhacks_lol/issues"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.3",
+    "body-parser": "^1.14.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.13.3",
+    "lodash": "^4.15.0",
+    "moment": "^2.14.1",
+    "mongoose": "^4.3.5",
+    "morgan": "^1.7.0",
+    "request": "^2.74.0"
+  },
+  "homepage": "https://github.com/ehouse322/wildhacks_lol#readme"
+}
