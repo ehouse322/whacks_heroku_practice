@@ -37,6 +37,6 @@ app.get("/api/usergames/:summonerName/:region", userGamesController.getGames);
 app.get("/api/champs/:championID", userGamesController.getChampInfo);
 
 
-app.listen('3000', function(){
+app.listen(process.env.PORT || '5000', function(){
     console.log("Listening on port 3000...");
 });
